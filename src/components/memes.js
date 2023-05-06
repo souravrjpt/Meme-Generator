@@ -25,8 +25,8 @@ export default function Memes() {
 
   //EDITING THE MEME BY ADDING UPPER TEXT AND BOTTOM TEXT
   const [memevalue, setMeme] = React.useState({
-    upperText: 'JUST...',
-    bottomText: 'MAKE A MEME',
+    upperText: '',
+    bottomText: '',
     randommeme: 'https://i.imgflip.com/1ur9b0.jpg ',
   });
   
