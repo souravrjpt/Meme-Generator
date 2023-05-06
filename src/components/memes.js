@@ -8,6 +8,7 @@ import { exportComponentAsPNG } from 'react-component-export-image';
 
 
 export default function Memes() {
+  
   // FOR GENERATING RANDOM MEME
   const [value, setvalue] = React.useState('https://i.imgflip.com/9ehk.jpg');
   function getImage() {
@@ -24,8 +25,8 @@ export default function Memes() {
 
   //EDITING THE MEME BY ADDING UPPER TEXT AND BOTTOM TEXT
   const [memevalue, setMeme] = React.useState({
-    upperText: '',
-    bottomText: '',
+    upperText: 'JUST...',
+    bottomText: 'MAKE A MEME',
     randommeme: 'https://i.imgflip.com/1ur9b0.jpg ',
   });
   
