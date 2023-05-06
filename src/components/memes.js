@@ -1,4 +1,4 @@
-import React, { useState, createRef } from 'react';
+import React, { createRef } from 'react';
 import memesdata from '../memesdata';
 import 'react-tooltip/dist/react-tooltip.css';
 import { Tooltip } from 'react-tooltip';
