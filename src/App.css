@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* HEADER STYLING   --------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
+  
+  body {
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+   font-family: 'Roboto Mono', monospace;;
 }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  li {
+  list-style: none;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(109, 16, 133);
+  color: #fff;
+  }
+
+  .nav-links a {
+    color: #fff;
+    }
+
+    /* LOGO */
+.logo {
+  font-size: 32px;
+  }
+  /* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  }
+
+  .menu li:hover {
+    background-color: #9b11d1;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+    .menu li {
+      padding: 5px 14px;
+      }
+
+    /* RESPONSIVE NAVBAR MENU STARTS */
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+  display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+  }
+  
+  /* APPLYING MEDIA QUERIES */
+  @media (max-width: 768px) {
+  .menu {
+  display:none;
+  position: absolute;
+  background-color:rgb(109, 16, 133);
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 16px 0;
+  }
+  
+  .menu li:hover {
+  display: inline-block;
+  background-color:#9b11d1;
+  transition: 0.3s ease;
+  }
+  
+  .menu li + li {
+  margin-top: 12px;
+  }
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+    }
+    
+    .hamburger {
+    display: block;
+    }
+}
+
+
+/* CSS for the container and image */
+.memeimg {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  /* position: relative; */
+
+}
+
+.memediv{
+  /* flex-shrink: 0;
+  resize: both; */
+  /* width: 700px; */
+  display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    margin-left: 35rem;
+
+}
+
+img {
+  max-width: 386px; /* make the image responsive */
+  max-height: 385px; /* make the image responsive */
+}
+
+.imgbutton{
+ /* margin-left: 600px;
+  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 15px; */
+ padding: 10px;
+ background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 10px;
+  margin: 1rem;
+}
+.imgbutton:hover{
+  box-shadow: #1c0325;
+
+}
+
+.text-editor{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.text-editor>input{
+  gap: 1rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  
+  padding: 1rem;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  /* position: absolute; */
+  /* z-index: 2; */
+}
+#uptext{
+  /* display: flex; */
+  margin-left: 28rem;
+  
+}
+#downtext{
+  /* display: flex; */
+  margin-left: 35rem;
+  
+}
+
+
+.memeimage {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.memetext {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  /* left: 50%; */
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
   color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      /* 2px 2px 0 #000, */
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 3px #000;
 }
 
-.App-link {
-  color: #61dafb;
+.bottom {
+  bottom: 0;
+  margin-bottom:3rem ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top {
+  top: 10;
+}   
+
+/* DOWNLOAD BUTTON FOR DOWNLOADING YOUR EDITED MEME*/
+
+.download-button{
+  display: flex;
+  justify-content: center;
+   text-align: center; 
+   align-items: center;
+  padding: 0.8rem;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 1rem;
+ margin: 2rem;
+ margin-left: 48rem;
+
 }
