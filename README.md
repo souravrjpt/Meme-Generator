@@ -1,3 +1,39 @@
+# Meme Genarator
+So, I was learning react.js (From`SCRIMBA.com`) and wanted to make a project on it.\
+Here's what I ended up with, a `Meme Generator`. I learned a lot from this project and happy to deploy it on `Netlify`\
+Here's the link : https://fantastic-cheesecake-521af1.netlify.app/ \
+( Although, I didn't choose the domain name but its kinda align with the perspective of the project.)
+
+## Tools, Languages, and Frameworks
+I used `Vscode Ide` and `Netlify` (for deployment of my project).\
+Along with this, I used `HTML, CSS, JAVASRIPT`.\
+In frameworks, I used `React.js`\
+( There are some cool react pakages that I encountered while doing this project:\
+`react-tooltip`- use for tool tip (used to specify extra information about something when the user moves the mouse pointer over an element)\
+`react-draggable` - use for dragging any component\
+`react-component-export-image` - use for exporting image as jpeg, png or pdf
+
+## HOW TO USE
+1- `WRITE`\
+2- `DRAG`\
+3- `DOWNLOAD`\
+Now share it with your friends!!
+
+
+## FUTURE GOALS
+There are many bugs int this project so I'm going to fix it one-by-one, like:\
+1- The image is not responsive as we change the size of the window and same with the Download button.\
+2- Haven't created 'HOW TO USE' section.\
+3- I will add a section for all the memes from where a person can choose the meme he/she wants.\
+4- Add a section to make a meme of our selected image (where a person can edit his own clicked images and create a meme.)
+
+![component (13)](https://user-images.githubusercontent.com/95532791/236629498-6cb8ba8b-999e-4d6c-a7f5-7f7648007687.png)
+
+( Feel free to contribute and fix the bugs. This project is open to all)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
