@@ -1,5 +1,5 @@
 import React, { createRef } from 'react';
-import memesdata from '../memesdata';
+import {initialData} from '../memesdata'
 import 'react-tooltip/dist/react-tooltip.css';
 import { Tooltip } from 'react-tooltip';
 import Drag from 'react-draggable';
@@ -8,7 +8,7 @@ import { exportComponentAsPNG } from 'react-component-export-image';
 export default function Memes() {
   const [value, setvalue] = React.useState('https://i.imgflip.com/9ehk.jpg');
   function getImage() {
-    const arr = memesdata.data.memes;
+    const arr = initialData.data.memes;
     const randomNumber = Math.floor(Math.random() * arr.length);
     setvalue(arr[randomNumber].url);
     setMeme((prevMeme) => ({
@@ -64,7 +64,7 @@ export default function Memes() {
           <Tooltip place='bottom' id='my-tooltip' />
 
         <div ref={memeref}  className='memediv'>
-          <img  className='memeimage' src={value} />
+          <img alt="img"  className='memeimage' src={value} />
           <Drag >
             <h2 className='memetext top' data-tooltip-id='my-tooltip'
            data-tooltip-content='Double Click To Move Text'>{memevalue.upperText}</h2>
