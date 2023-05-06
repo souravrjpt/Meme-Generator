@@ -22,7 +22,7 @@ export default function Header(){
                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                     <div className="menu">
                         {/* <li><a href="/" > HOME </a></li> */}
-                        <li><a href="/" > HOW TO USE </a></li>
+                        <li><a href="/" > ABOUT ME </a></li>
                     </div>
                 </ul>
         </nav>
