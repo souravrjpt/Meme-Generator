@@ -25,7 +25,7 @@ Now share it with your friends!!
 There are many bugs in this project so I'm going to fix it one-by-one, like:\
 1- The image is not responsive as we change the size of the window and same with the Download button.\
 2- Haven't created 'HOW TO USE' section.\
-3- I will add a section for all the memes from where you can choose the meme he/she wants.\
+3- I will add a section for all the memes from where you can choose the meme you want.\
 4- Add a section to make a meme of your own selected image (where you can edit your own clicked images and create a meme.)
 
 ![component (13)](https://user-images.githubusercontent.com/95532791/236629498-6cb8ba8b-999e-4d6c-a7f5-7f7648007687.png)
