@@ -14,10 +14,10 @@ In frameworks, I used `React.js`\
 `react-component-export-image` - use for exporting image as jpeg, png or pdf
 
 ## HOW TO USE
-1- `Get Image`\
-2- `WRITE`\
-3- `DRAG`\
-4- `DOWNLOAD`\
+1- `Get Image` of your choice\
+2- `WRITE` anything funny you want\
+3- `DRAG` at your desired location\
+4- `DOWNLOAD` get the meme on your PC and share it.\
 Now share it with your friends!!
 
 
